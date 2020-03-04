@@ -53,7 +53,7 @@ make menuconfig
 ```bash
 make download 
 
-# 检查下载是否正确，查看有无小于1k的文件。重要！是否成不成功，问题多出在这里。
+# 检查下载是否正确，查看有无小于1k的文件。重要！编译是否成功，问题多出在这里。
 ls ~/lede/dl/ -lSrh | less
 ```
 
