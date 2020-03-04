@@ -52,6 +52,9 @@ make menuconfig
 6. 下载源码文件到`buildroot`录下的`dl`目录
 ```bash
 make download 
+
+# 检查下载是否正确，查看有无小于1k的文件
+ls ~/lede/dl/ -lSrh | less
 ```
 
 7. 正式开始编译，建议先运行`screen`命令守护进程，尤其是在`VPS`上编译时
